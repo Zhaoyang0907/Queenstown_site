@@ -1,0 +1,173 @@
+body { 
+    font-family: 'Arial', sans-serif; 
+} 
+
+#page_container { 
+    width: 1700px; 
+    margin: 0 auto; 
+    border: 1px solid black; 
+    box-shadow: 0px 0px 48px 16px rgba(0, 0, 0, 0.175); 
+} 
+
+header { 
+    background-color: #ffffff; 
+    padding-bottom: 150px; 
+} 
+
+#logo { 
+    width: 200px; 
+    float: left; 
+    padding: 15px 0 20px 40px; 
+} 
+
+#page_title { 
+    width: 1000px; 
+    float: left; 
+    text-align: center; 
+    padding-left: 120px; 
+    padding-top: 60px; 
+} 
+
+#page_title h1 { 
+    font-size: 40px; 
+} 
+
+nav { 
+    clear: both; 
+    text-align: center; 
+} 
+
+nav ul { 
+    list-style-type: none; 
+    margin: 0; 
+    padding: 0; 
+    overflow: hidden; 
+    background-color: rgb(199, 179, 127); 
+} 
+
+nav li { 
+    display: inline-block; 
+} 
+
+nav li a { 
+    display: block; 
+    text-decoration: none; 
+    text-align: center; 
+    padding: 14px 30px; 
+    font-size: 20px; 
+    color: #ffffff; 
+} 
+
+#intro { 
+    background: black url(../resources/queenstown-late-night.jpg) no-repeat center; 
+    background-size: cover; 
+    padding: 300px 0; 
+}
+
+#intro_block {
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.175);
+    padding-top: 10px;
+    width: 1100px;
+    margin-left: 290px;
+    color: #ffffff;
+    border:  1px solid black;
+}
+
+.button {
+    color: #ffffff;
+    font-size: 25px;
+    margin: 30px 5px;
+    padding: 15px 50px;
+    border: 2px solid white;
+}
+
+/* .main_img { 
+    width: 1700px; 
+} */ 
+
+#about_queenstown { 
+    /* clear: both; 
+    float: left; */ 
+    overflow: hidden; 
+    padding-bottom: 5px; 
+} 
+
+#q_town_intro { 
+    margin-left: 5px; 
+    float: left; 
+    width: 900px; 
+    padding-left: 10px; 
+} 
+
+#q_town_intro p { 
+    font-size: 14px; 
+    text-align: justify; 
+} 
+
+#lake_wakatipu_image { 
+    width: 750px; 
+    float: left; 
+    padding-top: 10px; 
+    margin-left: 20px; 
+} 
+
+#lake_wakatipu_image img { 
+    width: 750px; 
+} 
+
+.heading { 
+    text-align: center; 
+    font-size: 30pt; 
+} 
+
+footer {
+    background-color: rgba(3, 86, 66, 0.25);
+    clear: both;
+    overflow: hidden;
+}
+
+footer li {
+    list-style-type: none;
+}
+
+footer a {
+    text-decoration: none;
+    color: rgb(198, 12, 48);
+}
+
+#queenstown_links {
+    width: 400px;
+    float: left;
+    /* padding: 100px */
+}
+
+#queenstown_links h4 {
+    padding-left: 40px;
+}
+
+#menu h4 {
+    padding-left: 40px;
+}
+
+#menu {
+    width: 400px;
+    float: left;
+    padding-left: 100px;
+}
+
+#socials { 
+    width: 400px; 
+    float: left; 
+    padding-left: 100px; 
+} 
+
+#socials ul { 
+    padding: 0; 
+    list-style-type: none; 
+} 
+
+#socials li { 
+    padding: 0 12px 0 0; 
+    display: inline; 
+    }
